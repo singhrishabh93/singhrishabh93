@@ -11,19 +11,19 @@
 
 - 🌱 I’m currently learning **React.js and backend development**
 
-- 👯 I’m looking to collaborate on [Community Website](http://opinco.netlify.app/)
+- 👯 I’m looking to collaborate on [My Portfolio Website](http://singhrishabh1670.netlify.app/)
 
 - 🤝 I’m looking for help with [Second hand gadget Selling website](https://github.com/singhrishabh93/Hacktoberfest-2022)
 
 - 💬 Ask me about **HTML, CSS, Javascript, Bootstrap**
 
-- 📫 How to reach me **singhrishabh1670@outlook.com**
+- 📫 How to reach me **singhrishabh1670@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1E5LhbfICi5ax-TuWwYbW7F8DelPggQ0O/view?usp=sharing](https://drive.google.com/file/d/1E5LhbfICi5ax-TuWwYbW7F8DelPggQ0O/view?usp=sharing)
+- 📄 Know about my experiences [Click Here](https://drive.google.com/file/d/1-kIrdQ9U76b1vMRKToSB2DbBVGa46_7e/view?usp=sharing)
 
 - ⚡ Fun fact **I think I am Funny**
 
-<h3 align="left">Connect with me:</h3>
+<a href="https://linktr.ee/singhrishabh"><h3 align="left">Connect with me</h3></a>
 <p align="left">
 <a href="https://codepen.io/singhrishabh93" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="singhrishabh93" height="30" width="40" /></a>
 <a href="https://twitter.com/singhrishabh93" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="singhrishabh93" height="30" width="40" /></a>
