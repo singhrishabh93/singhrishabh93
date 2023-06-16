@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Rishabh Singh</h1>
-<h3 align="center">An aspiring Software developer from India</h3>
+<h3 align="center">An Aspiring Software Developer from India</h3>
 <img align="centre width="400" src="https://raw.githubusercontent.com/punitkmryh/punitkmryh/master/Developer.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=singhrishabh93&label=Profile%20views&color=0e75b6&style=flat" alt="singhrishabh93" /> </p>
