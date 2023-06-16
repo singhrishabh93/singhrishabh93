@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Rishabh Singh | Alpha MLSA | Google CDL | Postman SE</h1>
 <h3 align="center">An Aspiring Software Developer from India</h3>
-<img align="centre width="400" src="https://raw.githubusercontent.com/punitkmryh/punitkmryh/master/Developer.gif">
+<img align="centre width="400" src="https://cdn.sanity.io/images/ordgikwe/production/816651876948b381a9d998556b03b5263f996ec1-800x600.png?w=800&h=600&auto=format">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=singhrishabh93&label=Profile%20views&color=0e75b6&style=flat" alt="singhrishabh93" /> </p>
 
