@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Rishabh Singh | Alpha MLSA | Google CDL | Posman SE</h1>
+<h1 align="center">Hi 👋, I'm Rishabh Singh | Alpha MLSA | Google CDL | Postman SE</h1>
 <h3 align="center">An Aspiring Software Developer from India</h3>
 <img align="centre width="400" src="https://raw.githubusercontent.com/punitkmryh/punitkmryh/master/Developer.gif">
 
