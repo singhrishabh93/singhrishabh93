@@ -4,7 +4,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=singhrishabh93&label=Profile%20views&color=0e75b6&style=flat" alt="singhrishabh93" /> </p>
 
-<p align="left"> <a href="https://linkedin.com/singhrishabh1670" target="blank"><img src="https://img.shields.io/twitter/follow/singhrishabh93?logo=twitter&style=for-the-badge" alt="singhrishabh93" /></a> </p>
+<p align="left"> <a href="https://linkedin.com/singhrishabh1670" target="blank"><img src="https://img.shields.io/twitter/follow/singhrishabh1670?logo=linkedin&style=for-the-badge" alt="singhrishabh1670" /></a> </p>
 
 - 🔭 I’m currently working on [Flutter Technology (An App Development Project)](https://github.com/singhrishabh93/Started-Learning-Flutter)
 
