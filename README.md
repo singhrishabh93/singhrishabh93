@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Rishabh Singh | Alpha MLSA | Google CDL | Postman SE</h1>
 <h3 align="center">An Aspiring Software Developer from India</h3>
-<img align="centre width="400" src="https://ibb.co/gyQQ36h">
+<img align="centre width="400" src="https://i.ibb.co/v1ffHDR/The-Shutter-Stories114-02-1.jpg">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=singhrishabh93&label=Profile%20views&color=0e75b6&style=flat" alt="singhrishabh93" /> </p>
 
