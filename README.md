@@ -22,7 +22,7 @@
 
 - 📫 How to reach me **singhrishabh1670@gmail.com**
 
-- 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/1-kIrdQ9U76b1vMRKToSB2DbBVGa46_7e/view?usp=sharing)
+- 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/1R2ud15Ijcs2PyFN9SF3XVp8ki8DkaaVS/view?usp=sharing)
 
 - ⚡ Fun fact **I'm cute as Minion**
 
