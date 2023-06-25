@@ -6,7 +6,7 @@
 
 <p align="left"> <a href="https://linkedin.com/singhrishabh1670" target="blank"><img src="https://img.shields.io/twitter/follow/singhrishabh1670?logo=linkedin&style=for-the-badge" alt="singhrishabh1670" /></a> </p>
 
-- 🔭 I’m currently working on [Flutter Technology (An App Development Project)](https://github.com/singhrishabh93/Started-Learning-Flutter)
+- 🔭 I’m currently working on [Infrastructure as a code and FLutter for mobile development](https://github.com/singhrishabh93/Started-Learning-Flutter)
 
 - 🌱 I’m currently learning **Flutter, Firebase🔥, MONGODB,& Google Cloud Services**
 
