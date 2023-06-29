@@ -18,7 +18,7 @@
 
 - 📝 I regularly write articles on [https://medium.com/@singhrishabh1670](https://medium.com/@singhrishabh1670)
 
-- - 📫 How to reach me **singhrishabh1670@gmail.com**
+- 📫 How to reach me **singhrishabh1670@gmail.com**
 
 - 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/1R2ud15Ijcs2PyFN9SF3XVp8ki8DkaaVS/view?usp=sharing)
 
