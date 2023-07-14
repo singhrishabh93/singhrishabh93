@@ -40,7 +40,7 @@
   
 - Volunteered at **Google I/O Extended Bhilai 2023** Check it out [here](https://gdg.community.dev/events/details/google-gdg-bhilai-presents-google-io-extended-bhilai-2023/).
   
-- Ex-Data Analytics Intern at **KPMG Australia**
+- Ex-Data Analyst Intern at **KPMG Australia**
 
   
 
