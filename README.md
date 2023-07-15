@@ -25,7 +25,7 @@
 - ⚡ Fun fact I love playing **Profit Pursuit**
 
 
-<h3 align="center">Work and volunteering Experiences:</h3>
+<h3 align="center">Work and Volunteering Experiences:</h3>
 <p align="center">
   
 - **Alpha Microsoft Learn Ambassador**
