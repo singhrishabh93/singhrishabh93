@@ -28,7 +28,7 @@
 <h3 align="center">Work and Volunteering Experiences:</h3>
 <p align="center">
   
-- **Alpha Microsoft Learn Ambassador**
+- **Beta Microsoft Learn Ambassador**
   
 - **SDE Intern at NoQs Digital Pvt. Ltd.**
 
