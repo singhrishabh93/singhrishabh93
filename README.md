@@ -1,7 +1,7 @@
 
 <h1 align="center">Hi I'm Rishabh Singh | Beta MLSA | Google CDL | Postman SE </h1>
 <h3 align="center">An Aspiring Software Developer from India</h3>
-<p align="center"><img align="centre width="400" src="Blue and White Abstract Technology LinkedIn Banner (4).png"></p>
+<p align="center"><img align="centre width="400" src="https://github.com/singhrishabh93/singhrishabh93/blob/d7982479b8a444d93b9bb4fe502e9d24b3267204/Blue%20and%20White%20Abstract%20Technology%20LinkedIn%20Banner%20(4).png"></p>
 
 
 
