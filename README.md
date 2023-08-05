@@ -22,7 +22,7 @@
 
 - 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/1R2ud15Ijcs2PyFN9SF3XVp8ki8DkaaVS/view?usp=sharing)
 
-- ⚡ Fun fact I love playing **Profit Pursuit**
+- ⚡ Fun fact I love to play **Profit Pursuit**
 
 
 <h3 align="center">Work and Volunteering Experiences:</h3>
