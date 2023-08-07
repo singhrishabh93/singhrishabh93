@@ -14,9 +14,9 @@
 
 - 🤝 I’m looking for help with [Integration of Firestore Database on Netflix Clone using React.Js](https://github.com/singhrishabh93/Netflix-Clone-ReactJs)
 
-- 👨‍💻 All of my projects are available at [http://bit.ly/rishabh-portfolio](http://bit.ly/rishabh-portfolio)
+- 👨‍💻 All of my projects are available at [My Portfolio](http://bit.ly/rishabh-portfolio)
 
-- 📝 I regularly write articles on [https://medium.com/@singhrishabh1670](https://medium.com/@singhrishabh1670)
+- 📝 I regularly write articles on [Medium](https://medium.com/@singhrishabh1670)
 
 - 📫 How to reach me **singhrishabh1670@gmail.com**
 
