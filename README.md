@@ -20,7 +20,7 @@
 
 - 📫 How to reach me **singhrishabh1670@gmail.com**
 
-- 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/1R2ud15Ijcs2PyFN9SF3XVp8ki8DkaaVS/view?usp=sharing)
+- 📄 Know about my experiences [My Resume](https://drive.google.com/file/d/13sTDiMqTtXKhB_Be8-zyV5MqHox6gkc4/view?usp=sharing)
 
 - ⚡ Fun fact I love to play **Profit Pursuit**
 
