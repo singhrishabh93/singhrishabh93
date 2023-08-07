@@ -6,7 +6,7 @@
 
 
 
-- 🔭 I’m currently working on [Infrastructure as a code and Flutter Development](https://github.com/singhrishabh93/Started-Learning-Flutter)
+- 🔭 I’m currently working on [Flutter Development](https://github.com/singhrishabh93/flutter_basics)
 
 - 🌱 I’m currently learning **Flutter, Firebase🔥, MONGODB & Google Cloud Services**
 
