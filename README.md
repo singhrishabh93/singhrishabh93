@@ -1,5 +1,5 @@
 
-<h1 align="center">Hi I'm Rishabh Singh| Flutter Developer | Beta MLSA | Google CDL </h1>
+<h1 align="center">Hi I'm Rishabh Singh | Flutter Developer | Beta MLSA | Google CDL </h1>
 <h3 align="center">An Aspiring Software Developer from India</h3>
 <p align="center"><img align="centre width="400" src="Blue and White Abstract Technology LinkedIn Banner (4).png"></p>
 
