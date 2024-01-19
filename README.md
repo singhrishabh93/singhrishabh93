@@ -1,15 +1,11 @@
 
-<h1 align="center">Hi I'm Rishabh Singh | Flutter Developer | Beta MLSA | Google CDL </h1>
+<h1 align="center">Hi I'm Rishabh Singh | Beta MLSA | Google CDL </h1>
 <!-- <h3 align="center">An Aspiring Software Developer from India</h3> -->
 <p align="center"><img align="centre width="400" src="LinkedIn cover (1).png"></p>
 
 - 🔭 I’m currently working on [Flutter Development](https://github.com/singhrishabh93/flutter_basics)
 
-- 🌱 I’m currently learning **Flutter, Firebase🔥, MONGODB & Google Cloud Services**
-
-- 👯 I’m looking to collaborate on [SabjiWallah: An Online Grocery Selling Platform](https://github.com/singhrishabh93/Mini-Project-02)
-
-- 🤝 I’m looking for help with [Integration of Firestore Database on Netflix Clone using React.Js](https://github.com/singhrishabh93/Netflix-Clone-ReactJs)
+- 🌱 I’m currently learning **Flutter, Firebase🔥, Augmented Reality, MONGODB & Google Cloud Services**
 
 - 👨‍💻 All of my projects are available at [My Portfolio](http://bit.ly/rishabh-portfolio)
 
@@ -22,27 +18,14 @@
 - ⚡ Fun fact I love to play **Profit Pursuit**
 
 
-<h3 align="center">Work and Volunteering Experiences:</h3>
+<h3 align="center">Work Experiences:</h3>
 <p align="center">
   
-- **Beta Microsoft Learn Ambassador**
+- **Flutter Developer ( Getx, Firebase, Augmented Reality ) at Sketch**
   
 - **SDE Intern at NoQs Digital Pvt. Ltd.**
 
-- Certified **Google Cloud Digital Leader**
-  
-- Ex-Tech Lead at **Newton School Coding Club.**
-  
-- Member at **Google Developers Group Bhilai**
-  
-- Volunteered at **Google I/O Extended Bhilai 2023** Check it out [here](https://gdg.community.dev/events/details/google-gdg-bhilai-presents-google-io-extended-bhilai-2023/).
-  
-- Ex-Data Analyst Intern at **KPMG Australia**
-
-  
-
-  
-
+- **Web Developer and Designer at The Sparks Foundation**
 
 <h3 align="center">Connect with me:</h3>
 <div align="center">
@@ -58,6 +41,9 @@
 <a href="https://medium.com/@singhrishabh1670" target="_blank">
 <img src=https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white alt=hashnode style="margin-bottom: 5px;" />
 </a>  
+<a href="https://instagram.com/singhrishabh1670" target="_blank">
+<img src=https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white alt=hashnode style="margin-bottom: 5px;" />
+</a> 
 </div>  
 
 
