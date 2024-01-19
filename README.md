@@ -70,5 +70,3 @@
 
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=singhrishabh93&&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" alt="singhrishabh93"  /></p>
 
-<p align="center"><a href="https://github.com/singhrishabh93/github-readme-stats"><img alt="Rishabh's Top Language" src="https://github-readme-stats.vercel.app/api/top-langs/?username=singhrishabh93&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
-
