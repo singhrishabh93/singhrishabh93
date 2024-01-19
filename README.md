@@ -1,10 +1,7 @@
 
 <h1 align="center">Hi I'm Rishabh Singh | Flutter Developer | Beta MLSA | Google CDL </h1>
-<h3 align="center">An Aspiring Software Developer from India</h3>
-<p align="center"><img align="centre width="400" src="Blue and White Abstract Technology LinkedIn Banner (4).png"></p>
-
-
-
+<!-- <h3 align="center">An Aspiring Software Developer from India</h3> -->
+<p align="center"><img align="centre width="400" src="LinkedIn cover (1).png"></p>
 
 - 🔭 I’m currently working on [Flutter Development](https://github.com/singhrishabh93/flutter_basics)
 
