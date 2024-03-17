@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Flutter, Firebase🔥, Augmented Reality, MONGODB & Google Cloud Services**
 
-- 👨‍💻 All of my projects are available at [My Portfolio](http://bit.ly/rishabh-portfolio)
+- 👨‍💻 All of my projects are available at [My Portfolio](http://rishabh16.me/)
 
 - 📝 I regularly write articles on [Medium](https://medium.com/@singhrishabh1670)
 
