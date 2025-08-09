@@ -14,7 +14,7 @@
 - 👨‍💻 Check out my projects at [My Portfolio](https://singhrishabh93.github.io/Portfolio_Website_New/)  
 - 📝 I share my learnings on [Medium](https://medium.com/@singhrishabh1670)  
 - 📫 Reach me at **singhrishabh1670@gmail.com**  
-- 📄 View my [Resume]([https://docs.google.com/document/d/1mMOffld_jgxBglCVxhUUvKhHBVEkKyUeqtpwON7O9AA/edit?usp=sharing](https://drive.google.com/drive/folders/1muWHUOZfFuaGLx90vatZFDDIkkljI25z?usp=drive_link))  
+- 📄 View my [Resume](https://docs.google.com/document/d/1mMOffld_jgxBglCVxhUUvKhHBVEkKyUeqtpwON7O9AA/edit?usp=sharing)  
 - ⚡ Fun fact: I love playing **Profit Pursuit**  
 
 ---
