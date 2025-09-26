@@ -1,36 +1,63 @@
-<h1 align="center">Hi 👋, I'm Rishabh Singh</h1>
-<h3 align="center">Software Developer</h3>
+<h2 align="center">Hi 👋! My name is Rishabh Singh and I'm a Software Developer</h2>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=singhrishabh93&label=Profile%20views&color=0e75b6&style=flat" alt="singhrishabh93" /> </p>
+###
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=singhrishabh93" alt="singhrishabh93" /></a> </p>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=singhrishabh93&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=singhrishabh93&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
 
-<p align="left"> <a href="https://twitter.com/singhrishabh93" target="blank"><img src="https://img.shields.io/twitter/follow/singhrishabh93?logo=twitter&style=for-the-badge" alt="singhrishabh93" /></a> </p>
+###
 
-- All of my projects are available at [rishabh16.dev](rishabh16.dev)
+<img align="right" height="150" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2M0cXJjcm8wZDMzcDB2cm5reDAyOWY1NzV1NTJqeHBtM2Zwa2FhaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/jBOOXxSJfG8kqMxT11/giphy.gif"  />
 
-- I regularly write articles on [https://medium.com/@singhrishabh1670](https://medium.com/@singhrishabh1670)
+###
 
-- Ask me about **Flutter, Dart, Android & iOS Development**
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="30" alt="flutter logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="30" alt="dart logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="30" alt="amazonwebservices logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="30" alt="azure logo"  />
+</div>
 
-- How to reach me **singhrishabh1670@gmail.com**
+###
 
-- Know about my experiences [https://drive.google.com/drive/folders/1muWHUOZfFuaGLx90vatZFDDIkkljI25z?usp=drive_link](https://drive.google.com/drive/folders/1muWHUOZfFuaGLx90vatZFDDIkkljI25z?usp=drive_link)
+<div align="left">
+  <a href="https://www.instagram.com/singhrishabh1670" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
+  </a>
+  <a href="https://www.linkedin.com/in/singhrishabh1670" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+  </a>
+  <a href="https://www.twitter.com/singhrishabh93" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitter logo"  />
+  </a>
+  <a href="https://medium.com/@singhrishabh1670" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Medium&logo=medium&label=&color=12100E&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="medium logo"  />
+  </a>
+</div>
 
-### Blogs posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+###
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/singhrishabh93" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="singhrishabh93" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/singhrishabh1670" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="singhrishabh1670" height="30" width="40" /></a>
-<a href="https://instagram.com/singhrishabh1670" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="singhrishabh1670" height="30" width="40" /></a>
-<a href="https://medium.com/@singhrishabh1670" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@singhrishabh1670" height="30" width="40" /></a>
-</p>
+<br clear="both">
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=singhrishabh93&show_icons=true&locale=en&layout=compact" alt="singhrishabh93" /></p>
+<img src="https://raw.githubusercontent.com/singhrishabh93/singhrishabh93/output/snake.svg" alt="Snake animation" />
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=singhrishabh93&show_icons=true&locale=en" alt="singhrishabh93" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=singhrishabh93&" alt="singhrishabh93" /></p>
+###
