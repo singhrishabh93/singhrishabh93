@@ -1,63 +1,76 @@
-<h2 align="center">Hi 👋! My name is Rishabh Singh and I'm a Software Developer</h2>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Rishabh%20Singh&fontSize=70&animation=fadeIn" />
+  
+  <h1>Hey there! 👋</h1>
+  <p align="center"><strong>Mobile Engineer | iOS & Android</strong></p>
+</div>
 
-###
+### 🚀 About Me
+
+<p align="left">
+  - 🔭 I’m currently working on high-impact projects.
+  - 🌱 I’m currently deepening my knowledge in modern tech stacks.
+  - 💬 Ask me about web architecture, performance, or accessibility.
+  - 📫 Reach me at: [rishabh16.dev](rishabh16.dev)
+</p>
+
+### 📊 Analytics & Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=singhrishabh93&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=singhrishabh93&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=singhrishabh93&show_icons=true&theme=dark&count_private=true&hide_border=true&title_color=0077ff" alt="Stats" height="180em" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=singhrishabh93&layout=compact&theme=dark&hide_border=true&title_color=0077ff" alt="Langs" height="180em" />
 </div>
 
-###
-
-<img align="right" height="150" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2M0cXJjcm8wZDMzcDB2cm5reDAyOWY1NzV1NTJqeHBtM2Zwa2FhaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/jBOOXxSJfG8kqMxT11/giphy.gif"  />
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="30" alt="flutter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="30" alt="dart logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="30" alt="amazonwebservices logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="30" alt="azure logo"  />
+<div align="center">
+  <img src="https://github-readme-stats-fast.vercel.app/api/streak/?username=singhrishabh93&theme=dark&hide_border=true" alt="Streak" />
 </div>
 
-###
+### 📈 Contribution Graph
 
-<div align="left">
-  <a href="https://www.instagram.com/singhrishabh1670" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=singhrishabh93&theme=github-compact&hide_border=true&area=true" width="100%" />
+</p>
+
+### 💻 Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Dart-3178C6?style=for-the-badge&logo=dart&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/Python-3178C6?style=for-the-badge&logo=python&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/JavaScript-3178C6?style=for-the-badge&logo=javascript&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/ShaderLab-3178C6?style=for-the-badge&logo=shaderlab&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/Objective-C-3178C6?style=for-the-badge&logo=objective-c&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/HTML-3178C6?style=for-the-badge&logo=html&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/C++-3178C6?style=for-the-badge&logo=cplusplus&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/Java-3178C6?style=for-the-badge&logo=java&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/Vue-3178C6?style=for-the-badge&logo=vue&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/Makefile-3178C6?style=for-the-badge&logo=makefile&logoColor=white" /> 
+</p>
+
+### 📂 Spotlight Projects
+
+<div align="center">
+  <a href="https://github.com/singhrishabh93/Hacktoberfest-2022">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=singhrishabh93&repo=Hacktoberfest-2022&theme=dark&show_owner=true" alt="Hacktoberfest-2022" />
   </a>
-  <a href="https://www.linkedin.com/in/singhrishabh1670" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-  <a href="https://www.twitter.com/singhrishabh93" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitter logo"  />
-  </a>
-  <a href="https://medium.com/@singhrishabh1670" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Medium&logo=medium&label=&color=12100E&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="medium logo"  />
+  <a href="https://github.com/singhrishabh93/Indoor-Navigation-Using-Augmented-Reality-AR">
+    <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=singhrishabh93&repo=Indoor-Navigation-Using-Augmented-Reality-AR&theme=dark&show_owner=true" alt="Indoor-Navigation-Using-Augmented-Reality-AR" />
   </a>
 </div>
 
-###
+### 🤝 Connect & Support
 
-<br clear="both">
+<p align="left">
+  <a href="https://twitter.com/singhrishabh93"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+</p>
 
-<img src="https://raw.githubusercontent.com/singhrishabh93/singhrishabh93/output/snake.svg" alt="Snake animation" />
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=singhrishabh93&color=blueviolet&style=flat-square" alt="profile views" />
+</p>
 
-###
+---
+
+<div align="center">
+  Released with ❤️ by <a href="https://github.com/gaurav-singh-03">README Maker</a>
+</div>
