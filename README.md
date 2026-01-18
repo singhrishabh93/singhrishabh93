@@ -5,15 +5,6 @@
   <p align="center"><strong>Mobile Engineer | iOS & Android</strong></p>
 </div>
 
-### 🚀 About Me
-
-<p align="left">
-  - 🔭 I’m currently working on high-impact projects.
-  - 🌱 I’m currently deepening my knowledge in modern tech stacks.
-  - 💬 Ask me about web architecture, performance, or accessibility.
-  - 📫 Reach me at: [rishabh16.dev](rishabh16.dev)
-</p>
-
 ### 📊 Analytics & Stats
 
 <div align="center">
