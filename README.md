@@ -63,5 +63,5 @@
 ---
 
 <div align="center">
-  Released with ❤️ by <a href="https://github.com/gaurav-singh-03">README Maker</a>
+  Released with ❤️ by <a href="https://github.com/singhrishabh93">README Maker</a>
 </div>
