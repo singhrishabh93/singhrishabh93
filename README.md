@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Rishabh%20Singh&fontSize=70&animation=fadeIn" />
   
   <h1>Hey there! 👋</h1>
-  <p align="center"><strong>Mobile Engineer | iOS & Android</strong></p>
+  <p align="center"><strong>Mobile Engineer | Freelancer</strong></p>
 </div>
 
 ### 📊 Analytics & Stats
