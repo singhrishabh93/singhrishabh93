@@ -12,16 +12,8 @@
    7781.178968422124
   ],
   [
-   "HTML",
-   4913.215883058226
-  ],
-  [
    "JavaScript",
    2517.297690083426
-  ],
-  [
-   "CSS",
-   2413.8004365752804
   ],
   [
    "Python",
@@ -32,16 +24,8 @@
    1326.3371454820376
   ],
   [
-   "Ruby",
-   834.4778636704169
-  ],
-  [
    "Java",
    513.5456028108246
-  ],
-  [
-   "Cython",
-   393.65594114658046
   ],
   [
    "ShaderLab",
@@ -89,68 +73,6 @@
    [
     "Carbon-Footprint-Calculator",
     401
-   ]
-  ],
-  "HTML": [
-   [
-    "Portfolio_Website_New",
-    420796
-   ],
-   [
-    "Hacktoberfest-2022",
-    377800
-   ],
-   [
-    "affirmation",
-    135474
-   ],
-   [
-    "angular",
-    88202
-   ],
-   [
-    "problems",
-    21305
-   ],
-   [
-    "ChatGPT-Clone",
-    10398
-   ],
-   [
-    "singhris.github.io",
-    9245
-   ],
-   [
-    "singhrishabh93.github.io",
-    7946
-   ],
-   [
-    "my-app",
-    7404
-   ],
-   [
-    "angularjwt",
-    4464
-   ],
-   [
-    "introduction-to-github",
-    3281
-   ],
-   [
-    "privacy-policy",
-    2995
-   ],
-   [
-    "ojas2024",
-    2906
-   ],
-   [
-    "Mini-Project-Bit",
-    2379
-   ],
-   [
-    "Web-Development-lab-08-08",
-    2304
    ]
   ],
   "Dart": [
@@ -213,68 +135,6 @@
    [
     "mixing-animation",
     32555
-   ]
-  ],
-  "Ruby": [
-   [
-    "capcut-clone-ultimate-video-editor-with-flutter",
-    4174
-   ],
-   [
-    "cipraAI",
-    2803
-   ],
-   [
-    "filepickertestapp",
-    2803
-   ],
-   [
-    "flutter_admob_implementation",
-    2803
-   ],
-   [
-    "Food_Delivery_App_UI",
-    2803
-   ],
-   [
-    "gemini-chatbot",
-    2803
-   ],
-   [
-    "ios_appointment_app",
-    2803
-   ],
-   [
-    "PingoLearn-Assignment",
-    2803
-   ],
-   [
-    "safe-connect-app",
-    2803
-   ],
-   [
-    "server_driven_ui_with_features_testing",
-    2803
-   ],
-   [
-    "partner_selfie",
-    2801
-   ],
-   [
-    "quickslot",
-    2757
-   ],
-   [
-    "affirmation",
-    1414
-   ],
-   [
-    "azure_image_upload",
-    1414
-   ],
-   [
-    "HTS_CarbonFoot_Print_Calculator",
-    1413
    ]
   ],
   "TypeScript": [
@@ -373,68 +233,6 @@
     3197
    ]
   ],
-  "CSS": [
-   [
-    "Hacktoberfest-2022",
-    146116
-   ],
-   [
-    "angular",
-    92950
-   ],
-   [
-    "ChatGPT-Clone",
-    13700
-   ],
-   [
-    "store-listing",
-    11663
-   ],
-   [
-    "m3-theme",
-    10787
-   ],
-   [
-    "streaks",
-    9761
-   ],
-   [
-    "version-bump",
-    9756
-   ],
-   [
-    "json-to-dart",
-    9680
-   ],
-   [
-    "upi-qr",
-    9639
-   ],
-   [
-    "mockup",
-    8894
-   ],
-   [
-    "app-icons",
-    8792
-   ],
-   [
-    "problems",
-    8617
-   ],
-   [
-    "my-app",
-    7564
-   ],
-   [
-    "angularjwt",
-    4758
-   ],
-   [
-    "singhris.github.io",
-    3469
-   ]
-  ],
   "Python": [
    [
     "Backend_BeYou_FastAPI_New",
@@ -491,12 +289,6 @@
    [
     "Indoor-Navigation-Using-Augmented-Reality-AR",
     13580
-   ]
-  ],
-  "Cython": [
-   [
-    "Text-to-Image-Generator",
-    154965
    ]
   ],
   "Nushell": [

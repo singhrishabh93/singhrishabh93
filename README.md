@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/languages.svg"><img alt="languages: Dart, HTML, JavaScript, CSS, Python, TypeScript" src="./assets/light/languages.svg" width="640"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/languages.svg"><img alt="languages: Dart, JavaScript, Python, TypeScript, Java, ShaderLab" src="./assets/light/languages.svg" width="640"></picture>
 </p>
 
 <p align="center">
