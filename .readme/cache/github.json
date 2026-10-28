@@ -16,10 +16,6 @@
    7606.402500248919
   ],
   [
-   "C++",
-   5716.6399368500815
-  ],
-  [
    "HTML",
    4913.215883058226
   ],
@@ -30,10 +26,6 @@
   [
    "CSS",
    2413.8004365752804
-  ],
-  [
-   "C",
-   1856.5519556613658
   ],
   [
    "Swift",
@@ -125,9 +117,36 @@
    "url": "https://github.com/singhrishabh93/3D-Product-Visualization-Using-Augmented-Reality-AR"
   }
  ],
- "events": [],
- "events_seen": {
-  "CreateEvent": 4,
-  "PublicEvent": 1
- }
+ "recent": [
+  {
+   "verb": "pushed to",
+   "target": "streaks",
+   "date": "2026-10-22T16:19:29Z",
+   "url": "https://github.com/singhrishabh93/streaks"
+  },
+  {
+   "verb": "pushed to",
+   "target": "m3-theme",
+   "date": "2026-10-22T16:19:19Z",
+   "url": "https://github.com/singhrishabh93/m3-theme"
+  },
+  {
+   "verb": "pushed to",
+   "target": "store-listing",
+   "date": "2026-10-22T16:19:08Z",
+   "url": "https://github.com/singhrishabh93/store-listing"
+  },
+  {
+   "verb": "pushed to",
+   "target": "mockup",
+   "date": "2026-10-22T16:18:59Z",
+   "url": "https://github.com/singhrishabh93/mockup"
+  },
+  {
+   "verb": "pushed to",
+   "target": "version-bump",
+   "date": "2026-10-22T16:18:51Z",
+   "url": "https://github.com/singhrishabh93/version-bump"
+  }
+ ]
 }
