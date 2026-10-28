@@ -103,7 +103,11 @@
     "C++",
     "Swift",
     "Kotlin",
-    "Objective-C"
+    "Objective-C",
+    "Ruby",
+    "Cython",
+    "HTML",
+    "CSS"
   ],
   "portfolio_card": [
     "the full story",
