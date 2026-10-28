@@ -408,6 +408,9 @@ LANG_COLORS = {
 }
 
 
+LANG_CAP = 500 * 1024  # bytes of one language one repo can count; above this it's not hand-written
+
+
 def section_languages(theme, gh):
     c = Canvas(theme)
     t = c.t
@@ -758,16 +761,16 @@ def github(C):
             page += 1
         own = [r for r in repos if not r["fork"]]
 
-        # Each repo adds sqrt(bytes) per language, so breadth counts and one giant repo
-        # (vendored code, notebooks) can't swamp the bar.
+        # Each repo adds sqrt(bytes) per language, capped at LANG_CAP bytes, so breadth counts
+        # and a repo with committed dependencies (a venv, vendored libs) can't swamp the bar.
         hidden = set(C.get("hide_languages", []))
         langs, by_lang = {}, {}
         for r in own:
-            if r["size"] == 0 or r["name"] in C.get("skip_repos_for_languages", []):
+            if r["size"] == 0 or r["name"] == u or r["name"] in C.get("skip_repos_for_languages", []):
                 continue
             for name, n in api("/repos/%s/languages" % r["full_name"]).items():
                 if name not in hidden:
-                    langs[name] = langs.get(name, 0) + math.sqrt(n)
+                    langs[name] = langs.get(name, 0) + math.sqrt(min(n, LANG_CAP))
                     by_lang.setdefault(name, []).append((r["name"], n))
 
         wanted = C.get("featured") or []

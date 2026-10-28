@@ -100,7 +100,10 @@
     "Shell",
     "PowerShell",
     "C",
-    "C++"
+    "C++",
+    "Swift",
+    "Kotlin",
+    "Objective-C"
   ],
   "portfolio_card": [
     "the full story",
