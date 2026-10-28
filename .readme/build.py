@@ -632,9 +632,10 @@ def ago(iso, today):
 
 
 def section_activity(theme, events, today):
+    """Timeline of the public repos pushed to most recently."""
     c = Canvas(theme)
     t = c.t
-    y = heading(c, 0, "recent activity")
+    y = heading(c, 0, "recently active")
     row = 28
     n = len(events)
     if n > 1:
@@ -780,7 +781,7 @@ def contributions(username):
 
 
 def github(C):
-    """Profile numbers, languages, featured repos and recent activity from the REST API."""
+    """Profile numbers, languages, featured and recently pushed repos from the REST API."""
     if OFFLINE:
         return load_cache("github.json")
     u = C["username"]
@@ -823,12 +824,8 @@ def github(C):
         } for r in picks]
 
         prs = api("/search/issues?q=author:%s+type:pr&per_page=1" % u)["total_count"]
-        raw_events = api("/users/%s/events/public?per_page=100" % u)
-        events = summarize_events(raw_events, u)
-        seen = {}
-        for ev in raw_events:
-            seen[ev["type"]] = seen.get(ev["type"], 0) + 1
-        print("events: %d public, %s -> %d shown" % (len(raw_events), seen, len(events)))
+        recent = [{"verb": "pushed to", "target": r["name"], "date": r["pushed_at"], "url": r["html_url"]}
+                  for r in sorted((r for r in own if r["name"] != u), key=lambda r: r["pushed_at"], reverse=True)[:5]]
 
         data = {
             "user": {k: user[k] for k in ("public_repos", "followers", "created_at")},
@@ -836,8 +833,7 @@ def github(C):
             "prs": prs,
             "languages": sorted(langs.items(), key=lambda kv: -kv[1]),
             "featured": featured,
-            "events": events,
-            "events_seen": seen,
+            "recent": recent,
         }
         save_cache("github.json", data)
         print("github: live")
@@ -845,51 +841,6 @@ def github(C):
     except Exception as e:
         print("github API unavailable (%s), using cache" % e)
         return load_cache("github.json")
-
-
-def summarize_events(events, user, limit=5):
-    out = []
-    for ev in events:
-        repo = ev["repo"]["name"]
-        if repo.lower() == ("%s/%s" % (user, user)).lower():
-            continue  # this README's own refresh commits
-        short = repo.split("/", 1)[1] if repo.lower().startswith(user.lower() + "/") else repo
-        p, kind = ev.get("payload", {}), ev["type"]
-        date = ev["created_at"]
-        if kind == "PushEvent":
-            n = p.get("distinct_size") or p.get("size") or 0
-            verb = "pushed %d commit%s to" % (n, "" if n == 1 else "s") if n else "pushed to"
-        elif kind == "PullRequestEvent" and p.get("action") in ("opened", "closed"):
-            pr = p.get("pull_request", {})
-            if p["action"] == "closed" and not pr.get("merged"):
-                continue
-            verb = "%s pr #%s in" % ("merged" if p["action"] == "closed" else "opened", p.get("number", ""))
-        elif kind == "CreateEvent" and p.get("ref_type") == "repository":
-            verb = "created"
-        elif kind == "ReleaseEvent":
-            verb = "released %s in" % p.get("release", {}).get("tag_name", "")
-        elif kind == "IssuesEvent" and p.get("action") == "opened":
-            verb = "opened issue #%s in" % p.get("issue", {}).get("number", "")
-        elif kind == "ForkEvent":
-            verb = "forked"
-        elif kind == "WatchEvent":
-            verb = "starred"
-        else:
-            continue
-        # Fold repeated pushes to the same repo on the same day into one line.
-        if out and kind == "PushEvent" and out[-1]["kind"] == kind and out[-1]["target"] == short \
-                and out[-1]["date"][:10] == date[:10]:
-            prev = out[-1]
-            m = re.match(r"pushed (\d+) commit", prev["verb"])
-            total = (int(m.group(1)) if m else 0) + (p.get("distinct_size") or p.get("size") or 0)
-            if total:
-                prev["verb"] = "pushed %d commits to" % total
-            continue
-        out.append({"kind": kind, "verb": verb, "target": short, "date": date,
-                    "url": "https://github.com/" + repo})
-        if len(out) == limit:
-            break
-    return out
 
 
 # --------------------------------------------------------------------------- readme
@@ -934,10 +885,10 @@ def build():
         for i, r in enumerate(gh["featured"]):
             add("repo-%d" % i, lambda th, r=r, f=(i == 0), l=(i == n - 1): section_repo_row(th, r, f, l),
                 "%s — %s" % (r["name"], r["description"] or ""), r["url"])
-        if gh["events"]:
-            add("activity", lambda th: section_activity(th, gh["events"], today),
-                "recent activity: " + "; ".join("%s %s" % (e["verb"], e["target"]) for e in gh["events"]),
-                profile)
+        if gh["recent"]:
+            add("activity", lambda th: section_activity(th, gh["recent"], today),
+                "recently active: " + ", ".join(e["target"] for e in gh["recent"]),
+                profile + "?tab=repositories&sort=updated")
     add("portfolio", lambda th: shipped_card(th, "shipped_products.webp", C["portfolio_card"][0],
         C["portfolio_card"][1]), C["portfolio_card"][1], site)
     add("links", lambda th: section_heading_only(th, "links"), "links")

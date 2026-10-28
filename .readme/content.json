@@ -98,7 +98,9 @@
     "Batchfile",
     "Procfile",
     "Shell",
-    "PowerShell"
+    "PowerShell",
+    "C",
+    "C++"
   ],
   "portfolio_card": [
     "the full story",
