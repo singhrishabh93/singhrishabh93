@@ -1,0 +1,149 @@
+{
+ "user": {
+  "public_repos": 203,
+  "followers": 35,
+  "created_at": "2021-10-17T12:59:32Z"
+ },
+ "stars": 76,
+ "prs": 98,
+ "languages": [
+  [
+   "Python",
+   24870803
+  ],
+  [
+   "Dart",
+   2062764
+  ],
+  [
+   "HTML",
+   1181409
+  ],
+  [
+   "C++",
+   880739
+  ],
+  [
+   "CMake",
+   689904
+  ],
+  [
+   "CSS",
+   374870
+  ],
+  [
+   "JavaScript",
+   338321
+  ],
+  [
+   "Objective-C",
+   334179
+  ],
+  [
+   "Makefile",
+   313118
+  ],
+  [
+   "TypeScript",
+   288613
+  ],
+  [
+   "C",
+   245196
+  ],
+  [
+   "Cython",
+   154965
+  ],
+  [
+   "Java",
+   128598
+  ],
+  [
+   "ShaderLab",
+   80492
+  ],
+  [
+   "Swift",
+   78702
+  ],
+  [
+   "Ruby",
+   42024
+  ],
+  [
+   "PowerShell",
+   17867
+  ],
+  [
+   "HLSL",
+   13994
+  ],
+  [
+   "C#",
+   13580
+  ],
+  [
+   "Shell",
+   8518
+  ],
+  [
+   "Kotlin",
+   8479
+  ],
+  [
+   "Nushell",
+   3367
+  ],
+  [
+   "Dockerfile",
+   650
+  ],
+  [
+   "Nix",
+   613
+  ],
+  [
+   "Go Template",
+   356
+  ]
+ ],
+ "featured": [
+  {
+   "name": "Hacktoberfest-2022",
+   "description": "This website allows you to sell old phones, laptops and other gadgets for instant cash, and you can use this money to purchase newer and better models.",
+   "language": "HTML",
+   "stars": 24,
+   "url": "https://github.com/singhrishabh93/Hacktoberfest-2022"
+  },
+  {
+   "name": "Indoor-Navigation-Using-Augmented-Reality-AR",
+   "description": "Get real time direction of any place using augmented reality easily. ",
+   "language": "ShaderLab",
+   "stars": 22,
+   "url": "https://github.com/singhrishabh93/Indoor-Navigation-Using-Augmented-Reality-AR"
+  },
+  {
+   "name": "Flutter-Basics-Guide",
+   "description": "Welcome to the Flutter Mastery repository! This comprehensive collection serves as a hub for all the topics covered in our learning journey, spanning from fundamental widgets to advanced logic implementations.",
+   "language": "C++",
+   "stars": 7,
+   "url": "https://github.com/singhrishabh93/Flutter-Basics-Guide"
+  },
+  {
+   "name": "capcut-clone-ultimate-video-editor-with-flutter",
+   "description": null,
+   "language": "Dart",
+   "stars": 4,
+   "url": "https://github.com/singhrishabh93/capcut-clone-ultimate-video-editor-with-flutter"
+  },
+  {
+   "name": "3D-Product-Visualization-Using-Augmented-Reality-AR",
+   "description": "ShopAR is an Android Application showcasing the use of Augmented Reality in the Furniture and Education Industry. It is built using Google's ARCore and Sceneform sdk.",
+   "language": "Java",
+   "stars": 3,
+   "url": "https://github.com/singhrishabh93/3D-Product-Visualization-Using-Augmented-Reality-AR"
+  }
+ ],
+ "events": []
+}

@@ -9,7 +9,23 @@
 </p>
 
 <p align="center">
+<a href="https://github.com/singhrishabh93?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/stats.svg"><img alt="203 public repos, 76 stars, 98 pull requests, 35 followers" src="./assets/light/stats.svg" width="640"></picture></a>
+</p>
+
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/languages.svg"><img alt="languages: Python, Dart, HTML, C++, CMake, CSS" src="./assets/light/languages.svg" width="640"></picture>
+</p>
+
+<p align="center">
 <a href="https://github.com/singhrishabh93"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/ship-log.svg"><img alt="ship log: 5223 contributions in the last year" src="./assets/light/ship-log.svg" width="640"></picture></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/singhrishabh93/Hacktoberfest-2022"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/repo-0.svg"><img alt="Hacktoberfest-2022 — This website allows you to sell old phones, laptops and other gadgets for instant cash, and you can use this money to purchase newer and better models." src="./assets/light/repo-0.svg" width="640"></picture></a><br>
+<a href="https://github.com/singhrishabh93/Indoor-Navigation-Using-Augmented-Reality-AR"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/repo-1.svg"><img alt="Indoor-Navigation-Using-Augmented-Reality-AR — Get real time direction of any place using augmented reality easily. " src="./assets/light/repo-1.svg" width="640"></picture></a><br>
+<a href="https://github.com/singhrishabh93/Flutter-Basics-Guide"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/repo-2.svg"><img alt="Flutter-Basics-Guide — Welcome to the Flutter Mastery repository! This comprehensive collection serves as a hub for all the topics covered in our learning journey, spanning from fundamental widgets to advanced logic implementations." src="./assets/light/repo-2.svg" width="640"></picture></a><br>
+<a href="https://github.com/singhrishabh93/capcut-clone-ultimate-video-editor-with-flutter"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/repo-3.svg"><img alt="capcut-clone-ultimate-video-editor-with-flutter — " src="./assets/light/repo-3.svg" width="640"></picture></a><br>
+<a href="https://github.com/singhrishabh93/3D-Product-Visualization-Using-Augmented-Reality-AR"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/repo-4.svg"><img alt="3D-Product-Visualization-Using-Augmented-Reality-AR — ShopAR is an Android Application showcasing the use of Augmented Reality in the Furniture and Education Industry. It is built using Google&#x27;s ARCore and Sceneform sdk." src="./assets/light/repo-4.svg" width="640"></picture></a>
 </p>
 
 <p align="center">
