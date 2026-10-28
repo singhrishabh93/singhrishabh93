@@ -3,29 +3,132 @@
   "site": "https://www.rishabhsingh.tech",
   "name": "rishabh singh",
   "role": "OPEN SOURCE · SIDE PROJECTS · EXPERIMENTS",
-  "tagline": ["commits really ", "often."],
-
+  "tagline": [
+    "commits really ",
+    "often."
+  ],
   "intro_title": "hello, world",
   "intro": [
-    [["t", "you've found the workshop. the polished version lives at "], ["u", "rishabhsingh.tech"],
-     ["t", ", this is where the code, the experiments and the late-night side projects live."]],
-    [["t", "most of it is "], ["hi", "flutter"], ["t", " and "], ["hi", "dart"],
-     ["t", ", with a growing pile of "], ["hi", "next.js"], ["t", ", "], ["hi", "typescript"],
-     ["t", " and "], ["hi", "aws"], ["t", " experiments."]],
-    [["t", "i like small, fast tools, clean apis and apps that feel instant. if something here helps you, a star goes a long way."]],
-    [["t", "found a bug or have an idea? open an issue or a pr, "], ["em", "contributions welcome"], ["t", "."]]
+    [
+      [
+        "t",
+        "you've found the workshop. the polished version lives at "
+      ],
+      [
+        "u",
+        "rishabhsingh.tech"
+      ],
+      [
+        "t",
+        ", this is where the code, the experiments and the late-night side projects live."
+      ]
+    ],
+    [
+      [
+        "t",
+        "most of it is "
+      ],
+      [
+        "hi",
+        "flutter"
+      ],
+      [
+        "t",
+        " and "
+      ],
+      [
+        "hi",
+        "dart"
+      ],
+      [
+        "t",
+        ", with a growing pile of "
+      ],
+      [
+        "hi",
+        "next.js"
+      ],
+      [
+        "t",
+        ", "
+      ],
+      [
+        "hi",
+        "typescript"
+      ],
+      [
+        "t",
+        " and "
+      ],
+      [
+        "hi",
+        "aws"
+      ],
+      [
+        "t",
+        " experiments."
+      ]
+    ],
+    [
+      [
+        "t",
+        "i like small, fast tools, clean apis and apps that feel instant. if something here helps you, a star goes a long way."
+      ]
+    ],
+    [
+      [
+        "t",
+        "found a bug or have an idea? open an issue or a pr, "
+      ],
+      [
+        "em",
+        "contributions welcome"
+      ],
+      [
+        "t",
+        "."
+      ]
+    ]
   ],
-
   "featured": [],
-  "hide_languages": [],
-
-  "portfolio_card": ["the full story", "work history, shipped products, blogs and everything else lives on rishabhsingh.tech."],
-
+  "hide_languages": [
+    "CMake",
+    "Makefile",
+    "Dockerfile",
+    "Batchfile",
+    "Procfile",
+    "Shell",
+    "PowerShell"
+  ],
+  "portfolio_card": [
+    "the full story",
+    "work history, shipped products, blogs and everything else lives on rishabhsingh.tech."
+  ],
   "links": [
-    { "icon": "x", "label": "x/twitter", "url": "https://x.com/singhrishabh93" },
-    { "icon": "linkedin", "label": "linkedin", "url": "https://linkedin.com/in/singhrishabh1670" },
-    { "icon": "email", "label": "email", "url": "mailto:singhrishabh1670@gmail.com" },
-    { "icon": "instagram", "label": "instagram", "url": "https://instagram.com/singhrishabh1670" },
-    { "icon": "resume", "label": "resume", "url": "https://drive.google.com/drive/folders/1muWHUOZfFuaGLx90vatZFDDIkkljI25z" }
+    {
+      "icon": "x",
+      "label": "x/twitter",
+      "url": "https://x.com/singhrishabh93"
+    },
+    {
+      "icon": "linkedin",
+      "label": "linkedin",
+      "url": "https://linkedin.com/in/singhrishabh1670"
+    },
+    {
+      "icon": "email",
+      "label": "email",
+      "url": "mailto:singhrishabh1670@gmail.com"
+    },
+    {
+      "icon": "instagram",
+      "label": "instagram",
+      "url": "https://instagram.com/singhrishabh1670"
+    },
+    {
+      "icon": "resume",
+      "label": "resume",
+      "url": "https://drive.google.com/drive/folders/1muWHUOZfFuaGLx90vatZFDDIkkljI25z"
+    }
   ]
 }

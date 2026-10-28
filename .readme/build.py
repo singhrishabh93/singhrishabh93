@@ -799,6 +799,8 @@ def github(C):
             page += 1
         own = [r for r in repos if not r["fork"]]
 
+        # Each repo adds sqrt(bytes) per language, so breadth counts and one giant repo
+        # (vendored code, notebooks) can't swamp the bar.
         hidden = set(C.get("hide_languages", []))
         langs = {}
         for r in own:
@@ -806,7 +808,7 @@ def github(C):
                 continue
             for name, n in api("/repos/%s/languages" % r["full_name"]).items():
                 if name not in hidden:
-                    langs[name] = langs.get(name, 0) + n
+                    langs[name] = langs.get(name, 0) + math.sqrt(n)
 
         wanted = C.get("featured") or []
         by_name = {r["name"]: r for r in own}
@@ -821,7 +823,12 @@ def github(C):
         } for r in picks]
 
         prs = api("/search/issues?q=author:%s+type:pr&per_page=1" % u)["total_count"]
-        events = summarize_events(api("/users/%s/events/public?per_page=100" % u), u)
+        raw_events = api("/users/%s/events/public?per_page=100" % u)
+        events = summarize_events(raw_events, u)
+        seen = {}
+        for ev in raw_events:
+            seen[ev["type"]] = seen.get(ev["type"], 0) + 1
+        print("events: %d public, %s -> %d shown" % (len(raw_events), seen, len(events)))
 
         data = {
             "user": {k: user[k] for k in ("public_repos", "followers", "created_at")},
@@ -830,6 +837,7 @@ def github(C):
             "languages": sorted(langs.items(), key=lambda kv: -kv[1]),
             "featured": featured,
             "events": events,
+            "events_seen": seen,
         }
         save_cache("github.json", data)
         print("github: live")
