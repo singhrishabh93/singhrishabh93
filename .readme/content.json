@@ -1,0 +1,77 @@
+{
+  "username": "singhrishabh93",
+  "site": "https://www.rishabhsingh.tech",
+  "name": "rishabh singh",
+  "role": "SYSTEMS, PRODUCT, AI RESEARCH",
+  "tagline": ["ships really ", "fast."],
+  "location": "(मिर्ज़ापुर, उत्तर प्रदेश, इंडिया)",
+  "timezone": "IST · UTC+05:30",
+  "resume": "https://drive.google.com/drive/folders/1muWHUOZfFuaGLx90vatZFDDIkkljI25z",
+
+  "past": [
+    { "logo": "flashoot.webp", "name": "flashoot", "role": "SDE I", "url": "https://flashoot.com/" },
+    { "logo": "monova.webp", "name": "monova", "role": "Mobile App Developer", "url": "https://monova.in" },
+    { "logo": "picapool.webp", "name": "picapool", "role": "Mobile Engineer Intern", "url": "https://picapool.com/" },
+    { "logo": "profitlyx.webp", "name": "profitlyx", "role": "iOS Developer Intern", "url": "https://www.profitlyx.com/" }
+  ],
+
+  "stack": [
+    ["flutter-original.svg", "Flutter"],
+    ["react-original.svg", "React Native"],
+    ["dart-original.svg", "Dart"],
+    ["typescript-original.svg", "TypeScript"],
+    ["javascript-original.svg", "JavaScript"],
+    ["react-original.svg", "React"],
+    ["nextjs-original.svg", "Next.js"],
+    ["svelte-original.svg", "Svelte"],
+    ["tailwindcss-original.svg", "Tailwind"],
+    ["nodejs-original.svg", "Node.js"],
+    ["firebase-plain.svg", "Firebase"],
+    ["mongodb-original.svg", "MongoDB"],
+    ["postgresql-original.svg", "PostgreSQL"],
+    ["amazonwebservices-original-wordmark.svg", "AWS"],
+    ["git-original.svg", "Git"],
+    ["docker-original.svg", "Docker"],
+    ["figma-original.svg", "Figma"]
+  ],
+
+  "projects": [
+    { "name": "AspirantOS", "tags": ["React Native", "NestJS", "Supabase", "AWS"], "url": "https://play.google.com/store/apps/details?id=com.aspirantos.app" },
+    { "name": "ELI5 - Explain Like I'm 5", "tags": ["Flutter", "Firebase", "Gemini SDK"], "url": "https://play.google.com/store/apps/details?id=com.eli5.app" },
+    { "name": "Splitto", "tags": ["Next.js", "Supabase", "Gemini AI"], "url": "https://splitto-zeta.vercel.app/" },
+    { "name": "Secure Share", "tags": ["Svelte", "WebRTC", "PGP"], "url": "https://share-17ddf.web.app/" },
+    { "name": "Be You - Positive Vibes", "tags": ["Flutter", "Firebase", "MongoDB"], "url": "https://play.google.com/store/apps/details?id=com.beyou.affirmation" },
+    { "name": "MPLADS Dashboard", "tags": ["Next.js", "Firebase"], "url": "https://mplads.vercel.app/" },
+    { "name": "SafeConnekt", "tags": ["Flutter", "Firebase"], "url": "https://github.com/SafeConnect-App/safe-connect-app" }
+  ],
+
+  "reading": [
+    { "kind": "book", "title": "Designing Data-Intensive Applications", "by": "Martin Kleppmann", "url": "https://0-lucas.github.io/digital-garden/99.-Books/Martin-Kleppmann---Designing-Data-Intensive-Applications_-O%E2%80%99Reilly-Media-(2017).pdf" },
+    { "kind": "book", "title": "System Design Interview", "by": "Alex Xu", "url": "https://github.com/aasthas2022/SDE-Interview-and-Prep-Roadmap/blob/main/System%20Design/Resources/System%20Design%20Interview%20by%20Alex%20Xu.pdf" },
+    { "kind": "paper", "title": "The Evolution of Agentic AI Software Architecture", "by": "Mamdouh Alenezi", "url": "https://arxiv.org/pdf/2602.10479" }
+  ],
+
+  "blogs_fallback": [
+    {
+      "title": "How to Become an AWS Community Builder in 2026",
+      "description": "AWS Community Builders is a global program for cloud enthusiasts who love sharing knowledge and connecting with others in the AWS ecosystem.",
+      "date": "2026-01-20T05:11:39.000Z",
+      "url": "https://www.rishabhsingh.tech/blog/how-to-become-an-aws-community-builder-in-2026"
+    },
+    {
+      "title": "Building and Scaling Next.js Applications with AWS App Router and Serverless Infrastructure",
+      "description": "Next.js has evolved rapidly, especially with the App Router, React Server Components, and streaming.",
+      "date": "2026-01-20T04:22:07.000Z",
+      "url": "https://www.rishabhsingh.tech/blog/building-and-scaling-next-js-applications-with-aws-app-router-and-serverless-infrastructure"
+    }
+  ],
+
+  "links": [
+    { "icon": "github", "label": "github", "url": "https://github.com/singhrishabh93" },
+    { "icon": "x", "label": "x/twitter", "url": "https://x.com/singhrishabh93" },
+    { "icon": "linkedin", "label": "linkedin", "url": "https://linkedin.com/in/singhrishabh1670" },
+    { "icon": "email", "label": "email", "url": "mailto:singhrishabh1670@gmail.com" },
+    { "icon": "instagram", "label": "instagram", "url": "https://instagram.com/singhrishabh1670" },
+    { "icon": "resume", "label": "resume", "url": "https://drive.google.com/drive/folders/1muWHUOZfFuaGLx90vatZFDDIkkljI25z" }
+  ]
+}
