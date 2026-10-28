@@ -2,7 +2,7 @@ name: Build README
 
 on:
   schedule:
-    - cron: "17 1 * * *" # daily, 06:47 IST: refreshes the ship log heatmap and recent blogs
+    - cron: "30 18 * * *" # daily at 00:00 IST (18:30 UTC; Actions cron is UTC)
   workflow_dispatch:
   push:
     paths:
