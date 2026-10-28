@@ -39,7 +39,6 @@ THEMES = {
         "border_soft": "#e5e7eb", "border_pill": "#d1d5dc", "bg": "#fdfff4",
         "card": "rgba(249,250,251,0.2)", "pill_bg": "rgba(0,0,0,0.03)", "pill_border": "#e5e7eb",
         "badge_bg": "#000", "badge_fg": "#f5f5f5", "badge_border": "#e5e5e5",
-        "deco": "#d4d4d4", "blog_desc": "#4a5565",
         "binary": "#6a7282", "binary_opacity": 0.05,
         "cells": ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"], "cell_outline": "rgba(27,31,35,0.06)",
     },
@@ -48,7 +47,6 @@ THEMES = {
         "border_soft": "rgba(255,255,255,0.1)", "border_pill": "rgba(255,255,255,0.2)", "bg": "#0c0c0c",
         "card": "rgba(255,255,255,0.02)", "pill_bg": "rgba(255,255,255,0.04)", "pill_border": "rgba(255,255,255,0.08)",
         "badge_bg": "#eee", "badge_fg": "#111", "badge_border": "#e5e5e5",
-        "deco": "#d4d4d4", "blog_desc": "#b5b5b5",
         "binary": "#d4d4d4", "binary_opacity": 0.06,
         "cells": ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"], "cell_outline": "rgba(255,255,255,0.05)",
     },
@@ -177,19 +175,6 @@ class Canvas:
         extra = ' stroke-dasharray="%s"' % dash if dash else ""
         self.line(x, y, x + width, y, color, 1, extra)
 
-    def wavy(self, x, baseline, width, color):
-        y = baseline + 3.5
-        period, amp = 4.0, 1.2
-        d = "M%.2f %.2f" % (x, y)
-        n = max(1, int(width // period))
-        for i in range(n):
-            x0 = x + i * period
-            d += " Q%.2f %.2f %.2f %.2f Q%.2f %.2f %.2f %.2f" % (
-                x0 + period / 4, y - amp, x0 + period / 2, y,
-                x0 + 3 * period / 4, y + amp, x0 + period, y,
-            )
-        self.els.append('<path d="%s" fill="none" stroke="%s" stroke-width="1"/>' % (d, color))
-
     def image(self, x, y, w, h, name, extra=""):
         self.els.append(
             '<image x="%.2f" y="%.2f" width="%.2f" height="%.2f" href="%s"%s/>' % (x, y, w, h, data_uri(name), extra)
@@ -302,9 +287,8 @@ def section_hero(theme, C, gh):
     c.text(0, b, lead, 14)
     ex = tw(lead, 14)
     c.text(ex, b, em, 14, italic=True)
-    c.underline(ex, b, tw(em, 14), t["deco"])
 
-    # Right: handle, join date, portfolio link.
+    # Right: handle and join date.
     rx = W
     y = top + 3
     c.text(rx, y + 12, "@" + C["username"], 12, fill=t["secondary"], anchor="end")
@@ -312,27 +296,11 @@ def section_hero(theme, C, gh):
     if gh and gh.get("user", {}).get("created_at"):
         joined = dt.date.fromisoformat(gh["user"]["created_at"][:10])
         c.text(rx, y + 12, "on github since %d" % joined.year, 12, fill=t["secondary"], anchor="end")
-    y += 16 + 6
-    label = "portfolio ↗"
-    rw = tw(label, 12)
-    c.text(rx, y + 12, label, 12, anchor="end")
-    c.underline(rx - rw, y + 12, rw, t["primary"], offset=3)
-    # Sun glyph from the site's theme toggle.
-    sx, sy = rx - rw - 6 - 7, y + 8
-    c.raw('<g stroke="%s" stroke-width="1.3" stroke-linecap="round" fill="none">' % t["secondary"])
-    c.raw('<circle cx="%.2f" cy="%.2f" r="2.6"/>' % (sx, sy))
-    for k in range(8):
-        a = k * math.pi / 4
-        c.raw(
-            '<line x1="%.2f" y1="%.2f" x2="%.2f" y2="%.2f"/>'
-            % (sx + 4.4 * math.cos(a), sy + 4.4 * math.sin(a), sx + 5.8 * math.cos(a), sy + 5.8 * math.sin(a))
-        )
-    c.raw("</g>")
     return c
 
 
-# Inline rich text for the intro. Pieces: ("t", text) plain, ("hi", text) wavy underline,
-# ("em", text) italic with dashed underline, ("u", text) underlined link text.
+# Inline rich text for the intro. Pieces: ("t", text) plain, ("hi", text) and ("u", text) medium
+# weight, ("em", text) italic. No underlines: the intro image isn't a link.
 def _piece_width(p):
     return tw(p[1], 14)
 
@@ -342,15 +310,10 @@ def _draw_piece(c, p, x, b):
     kind, s = p
     if kind == "t":
         c.text(x, b, s, 14, fill=t["body"])
-    elif kind == "hi":
-        c.text(x, b, s, 14, 500, fill=t["body"])
-        c.wavy(x, b, tw(s, 14), t["deco"])
+    elif kind in ("hi", "u"):
+        c.text(x, b, s, 14, 500, fill=t["primary"])
     elif kind == "em":
         c.text(x, b, s, 14, italic=True, fill=t["primary"])
-        c.underline(x, b, tw(s, 14), t["primary"], offset=3, dash="2 2")
-    elif kind == "u":
-        c.text(x, b, s, 14, fill=t["primary"])
-        c.underline(x, b, tw(s, 14), t["primary"])
 
 
 def _atoms(paragraph):
@@ -631,27 +594,22 @@ def ago(iso, today):
     return "today" if days == 0 else "%dd ago" % days
 
 
-def section_activity(theme, events, today):
-    """Timeline of the public repos pushed to most recently."""
-    c = Canvas(theme)
+def section_activity_row(theme, ev, first, today):
+    """One recently pushed repo; each row is its own image so it links to that repo."""
+    c, y = row_canvas(theme, "recently active", first)
     t = c.t
-    y = heading(c, 0, "recently active")
     row = 28
-    n = len(events)
-    if n > 1:
-        c.line(4, y + row / 2, 4, y + row * (n - 1) + row / 2, t["border_soft"])
-    for i, ev in enumerate(events):
-        cy = y + i * row + row / 2
-        c.raw('<circle cx="4" cy="%.2f" r="3.5" fill="%s" stroke="%s"/>' % (cy, t["border_soft"], t["secondary"]))
-        when = ago(ev["date"], today)
-        b = cy + 4.5
-        c.text(W, b, when, 12, fill=t["secondary"], anchor="end")
-        room = W - 20 - tw(when, 12) - 16
-        verb = ev["verb"] + " "
-        target = clip_text(ev["target"], 14, room - tw(verb, 14))
-        c.text(20, b, verb, 14, fill=t["body"])
-        c.text(20 + tw(verb, 14), b, target, 14, 500)
-    c.h = y + n * row + 2
+    cy = y + row / 2
+    c.raw('<circle cx="4" cy="%.2f" r="3.5" fill="%s" stroke="%s"/>' % (cy, t["border_soft"], t["secondary"]))
+    when = ago(ev["date"], today)
+    b = cy + 4.5
+    c.text(W, b, when, 12, fill=t["secondary"], anchor="end")
+    room = W - 20 - tw(when, 12) - 16
+    verb = ev["verb"] + " "
+    target = clip_text(ev["target"], 14, room - tw(verb, 14))
+    c.text(20, b, verb, 14, fill=t["body"])
+    c.text(20 + tw(verb, 14), b, target, 14, 500)
+    c.h = y + row
     return c
 
 
@@ -803,13 +761,14 @@ def github(C):
         # Each repo adds sqrt(bytes) per language, so breadth counts and one giant repo
         # (vendored code, notebooks) can't swamp the bar.
         hidden = set(C.get("hide_languages", []))
-        langs = {}
+        langs, by_lang = {}, {}
         for r in own:
             if r["size"] == 0 or r["name"] in C.get("skip_repos_for_languages", []):
                 continue
             for name, n in api("/repos/%s/languages" % r["full_name"]).items():
                 if name not in hidden:
                     langs[name] = langs.get(name, 0) + math.sqrt(n)
+                    by_lang.setdefault(name, []).append((r["name"], n))
 
         wanted = C.get("featured") or []
         by_name = {r["name"]: r for r in own}
@@ -832,6 +791,8 @@ def github(C):
             "stars": sum(r["stargazers_count"] for r in own),
             "prs": prs,
             "languages": sorted(langs.items(), key=lambda kv: -kv[1]),
+            # Which repos each language comes from (bytes), to tune skip_repos_for_languages.
+            "language_repos": {k: sorted(v, key=lambda rn: -rn[1])[:15] for k, v in by_lang.items()},
             "featured": featured,
             "recent": recent,
         }
@@ -866,7 +827,7 @@ def build():
     sections = []  # (name, builder(theme) -> Canvas, alt, href)
     add = lambda name, fn, alt, href=None: sections.append((name, fn, alt, href))
 
-    add("hero", lambda th: section_hero(th, C, gh), "%s — %s%s" % (C["name"], *C["tagline"]), site)
+    add("hero", lambda th: section_hero(th, C, gh), "%s — %s%s" % (C["name"], *C["tagline"]))
     add("intro", lambda th: section_intro(th, C),
         " ".join("".join(p[1] for p in para) for para in C["intro"]))
     if gh:
@@ -885,10 +846,9 @@ def build():
         for i, r in enumerate(gh["featured"]):
             add("repo-%d" % i, lambda th, r=r, f=(i == 0), l=(i == n - 1): section_repo_row(th, r, f, l),
                 "%s — %s" % (r["name"], r["description"] or ""), r["url"])
-        if gh["recent"]:
-            add("activity", lambda th: section_activity(th, gh["recent"], today),
-                "recently active: " + ", ".join(e["target"] for e in gh["recent"]),
-                profile + "?tab=repositories&sort=updated")
+        for i, ev in enumerate(gh["recent"]):
+            add("active-%d" % i, lambda th, ev=ev, f=(i == 0): section_activity_row(th, ev, f, today),
+                "%s %s" % (ev["verb"], ev["target"]), ev["url"])
     add("portfolio", lambda th: shipped_card(th, "shipped_products.webp", C["portfolio_card"][0],
         C["portfolio_card"][1]), C["portfolio_card"][1], site)
     add("links", lambda th: section_heading_only(th, "links"), "links")
@@ -927,7 +887,7 @@ def build():
         block(["languages"]),
         block(["ship-log"]),
         block(group("repo-")),
-        block(["activity"]),
+        block(group("active-")),
         block(["portfolio"]),
         block(["links"]),
         '<p align="center">\n' + "&nbsp;&nbsp;\n".join(P(n) for n in group("link-")) + "\n</p>",
