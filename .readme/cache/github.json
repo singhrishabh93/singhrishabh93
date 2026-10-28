@@ -8,10 +8,6 @@
  "prs": 98,
  "languages": [
   [
-   "Python",
-   7801.927434720203
-  ],
-  [
    "Dart",
    7781.178968422124
   ],
@@ -28,24 +24,16 @@
    2413.8004365752804
   ],
   [
-   "Swift",
-   1821.828386551186
+   "Python",
+   2003.7666073957553
   ],
   [
    "TypeScript",
    1326.3371454820376
   ],
   [
-   "Objective-C",
-   854.0795956759077
-  ],
-  [
    "Ruby",
    834.4778636704169
-  ],
-  [
-   "Kotlin",
-   588.9604821815744
   ],
   [
    "Java",
@@ -227,68 +215,6 @@
     32555
    ]
   ],
-  "Kotlin": [
-   [
-    "affirmation",
-    2230
-   ],
-   [
-    "flutter_dynamic_island_implementation",
-    154
-   ],
-   [
-    "server_driven_ui_with_features_testing",
-    151
-   ],
-   [
-    "Flutter_Firebase_Notification",
-    149
-   ],
-   [
-    "flutter_admob_implementation",
-    145
-   ],
-   [
-    "Server-Driven-User-Interface",
-    144
-   ],
-   [
-    "CRUD_Application_Flutter",
-    141
-   ],
-   [
-    "BMI-Application",
-    140
-   ],
-   [
-    "filepickertestapp",
-    138
-   ],
-   [
-    "otp_verification_flutter_using_thirdParty_API",
-    138
-   ],
-   [
-    "Started-Learning-Flutter",
-    138
-   ],
-   [
-    "Tic-Tac-Toe-Game",
-    138
-   ],
-   [
-    "Fetching-Data-From-API-and-Pagination",
-    137
-   ],
-   [
-    "weather_app_provider",
-    137
-   ],
-   [
-    "flutter_amplify_testing",
-    136
-   ]
-  ],
   "Ruby": [
    [
     "capcut-clone-ultimate-video-editor-with-flutter",
@@ -349,130 +275,6 @@
    [
     "HTS_CarbonFoot_Print_Calculator",
     1413
-   ]
-  ],
-  "Swift": [
-   [
-    "flutter_dynamic_island_implementation",
-    8692
-   ],
-   [
-    "safe-connect-app",
-    4114
-   ],
-   [
-    "Food_Delivery_App_UI",
-    2575
-   ],
-   [
-    "quickslot",
-    2393
-   ],
-   [
-    "PingoLearn-Assignment",
-    2365
-   ],
-   [
-    "capcut-clone-ultimate-video-editor-with-flutter",
-    2346
-   ],
-   [
-    "ios_appointment_app",
-    2345
-   ],
-   [
-    "partner_selfie",
-    2178
-   ],
-   [
-    "Flutter_Firebase_Notification",
-    2125
-   ],
-   [
-    "cipraAI",
-    1864
-   ],
-   [
-    "flutter_admob_implementation",
-    1861
-   ],
-   [
-    "Carbon-Foot-Print-Calculator",
-    1849
-   ],
-   [
-    "gemini-chatbot",
-    1849
-   ],
-   [
-    "server_driven_ui_with_features_testing",
-    1838
-   ],
-   [
-    "my_amplify_app",
-    1807
-   ]
-  ],
-  "Objective-C": [
-   [
-    "flutter_dynamic_island_implementation",
-    332468
-   ],
-   [
-    "Food_Delivery_App_UI",
-    39
-   ],
-   [
-    "affirmation",
-    38
-   ],
-   [
-    "azure_image_upload",
-    38
-   ],
-   [
-    "BMI-Application",
-    38
-   ],
-   [
-    "capcut-clone-ultimate-video-editor-with-flutter",
-    38
-   ],
-   [
-    "Carbon-Foot-Print-Calculator",
-    38
-   ],
-   [
-    "Carbon-Footprint-Calculator",
-    38
-   ],
-   [
-    "chat_gpt_clone",
-    38
-   ],
-   [
-    "cipraAI",
-    38
-   ],
-   [
-    "cipra_ai",
-    38
-   ],
-   [
-    "CRUD_Application_Flutter",
-    38
-   ],
-   [
-    "decarbonus",
-    38
-   ],
-   [
-    "Fetching-Data-From-API-and-Pagination",
-    38
-   ],
-   [
-    "filepickertestapp",
-    38
    ]
   ],
   "TypeScript": [
@@ -645,10 +447,6 @@
    [
     "scrapper",
     47201
-   ],
-   [
-    "singhrishabh93",
-    38230
    ],
    [
     "BeYou_New_Backend",
