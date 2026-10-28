@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/singhrishabh93"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/ship-log.svg"><img alt="ship log: 5224 contributions in the last year" src="./assets/light/ship-log.svg" width="640"></picture></a>
+<a href="https://github.com/singhrishabh93"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/ship-log.svg"><img alt="ship log: 5225 contributions in the last year" src="./assets/light/ship-log.svg" width="640"></picture></a>
 </p>
 
 <p align="center">
