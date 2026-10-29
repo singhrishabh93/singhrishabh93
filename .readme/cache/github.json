@@ -1,6 +1,6 @@
 {
  "user": {
-  "public_repos": 203,
+  "public_repos": 205,
   "followers": 35,
   "created_at": "2021-10-17T12:59:32Z"
  },
@@ -13,7 +13,7 @@
   ],
   [
    "JavaScript",
-   2517.297690083426
+   2864.3069126353726
   ],
   [
    "Python",
@@ -181,8 +181,16 @@
     47499
    ],
    [
+    "standup",
+    36776
+   ],
+   [
     "Mini-Project-Bit",
     28784
+   ],
+   [
+    "murmur",
+    24099
    ],
    [
     "Mini-Project-02",
@@ -223,14 +231,6 @@
    [
     "version-bump",
     8614
-   ],
-   [
-    "Hacktoberfest-2022",
-    6986
-   ],
-   [
-    "BeYou_Backend",
-    3197
    ]
   ],
   "Python": [
@@ -344,6 +344,18 @@
  "recent": [
   {
    "verb": "pushed to",
+   "target": "standup",
+   "date": "2026-10-29T02:27:53Z",
+   "url": "https://github.com/singhrishabh93/standup"
+  },
+  {
+   "verb": "pushed to",
+   "target": "murmur",
+   "date": "2026-10-29T02:27:51Z",
+   "url": "https://github.com/singhrishabh93/murmur"
+  },
+  {
+   "verb": "pushed to",
    "target": "streaks",
    "date": "2026-10-22T16:19:29Z",
    "url": "https://github.com/singhrishabh93/streaks"
@@ -359,18 +371,6 @@
    "target": "store-listing",
    "date": "2026-10-22T16:19:08Z",
    "url": "https://github.com/singhrishabh93/store-listing"
-  },
-  {
-   "verb": "pushed to",
-   "target": "mockup",
-   "date": "2026-10-22T16:18:59Z",
-   "url": "https://github.com/singhrishabh93/mockup"
-  },
-  {
-   "verb": "pushed to",
-   "target": "version-bump",
-   "date": "2026-10-22T16:18:51Z",
-   "url": "https://github.com/singhrishabh93/version-bump"
   }
  ]
 }

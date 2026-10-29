@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/singhrishabh93?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/stats.svg"><img alt="203 public repos, 76 stars, 98 pull requests, 35 followers" src="./assets/light/stats.svg" width="640"></picture></a>
+<a href="https://github.com/singhrishabh93?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/stats.svg"><img alt="205 public repos, 76 stars, 98 pull requests, 35 followers" src="./assets/light/stats.svg" width="640"></picture></a>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/singhrishabh93"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/ship-log.svg"><img alt="ship log: 5225 contributions in the last year" src="./assets/light/ship-log.svg" width="640"></picture></a>
+<a href="https://github.com/singhrishabh93"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/ship-log.svg"><img alt="ship log: 5260 contributions in the last year" src="./assets/light/ship-log.svg" width="640"></picture></a>
 </p>
 
 <p align="center">
@@ -29,11 +29,11 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/singhrishabh93/streaks"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/active-0.svg"><img alt="pushed to streaks" src="./assets/light/active-0.svg" width="640"></picture></a><br>
-<a href="https://github.com/singhrishabh93/m3-theme"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/active-1.svg"><img alt="pushed to m3-theme" src="./assets/light/active-1.svg" width="640"></picture></a><br>
-<a href="https://github.com/singhrishabh93/store-listing"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/active-2.svg"><img alt="pushed to store-listing" src="./assets/light/active-2.svg" width="640"></picture></a><br>
-<a href="https://github.com/singhrishabh93/mockup"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/active-3.svg"><img alt="pushed to mockup" src="./assets/light/active-3.svg" width="640"></picture></a><br>
-<a href="https://github.com/singhrishabh93/version-bump"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/active-4.svg"><img alt="pushed to version-bump" src="./assets/light/active-4.svg" width="640"></picture></a>
+<a href="https://github.com/singhrishabh93/standup"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/active-0.svg"><img alt="pushed to standup" src="./assets/light/active-0.svg" width="640"></picture></a><br>
+<a href="https://github.com/singhrishabh93/murmur"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/active-1.svg"><img alt="pushed to murmur" src="./assets/light/active-1.svg" width="640"></picture></a><br>
+<a href="https://github.com/singhrishabh93/streaks"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/active-2.svg"><img alt="pushed to streaks" src="./assets/light/active-2.svg" width="640"></picture></a><br>
+<a href="https://github.com/singhrishabh93/m3-theme"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/active-3.svg"><img alt="pushed to m3-theme" src="./assets/light/active-3.svg" width="640"></picture></a><br>
+<a href="https://github.com/singhrishabh93/store-listing"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/active-4.svg"><img alt="pushed to store-listing" src="./assets/light/active-4.svg" width="640"></picture></a>
 </p>
 
 <p align="center">
