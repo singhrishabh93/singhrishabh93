@@ -1951,7 +1951,11 @@
     "level": 2,
     "count": 28
    },
-   null,
+   {
+    "date": "2026-10-30",
+    "level": 0,
+    "count": 0
+   },
    null
   ]
  ]
