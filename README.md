@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/singhrishabh93?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/stats.svg"><img alt="205 public repos, 76 stars, 98 pull requests, 35 followers" src="./assets/light/stats.svg" width="640"></picture></a>
+<a href="https://github.com/singhrishabh93?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/stats.svg"><img alt="205 public repos, 76 stars, 98 pull requests, 34 followers" src="./assets/light/stats.svg" width="640"></picture></a>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/singhrishabh93"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/ship-log.svg"><img alt="ship log: 5260 contributions in the last year" src="./assets/light/ship-log.svg" width="640"></picture></a>
+<a href="https://github.com/singhrishabh93"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/dark/ship-log.svg"><img alt="ship log: 5319 contributions in the last year" src="./assets/light/ship-log.svg" width="640"></picture></a>
 </p>
 
 <p align="center">
